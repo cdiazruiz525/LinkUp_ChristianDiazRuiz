@@ -9,7 +9,7 @@ Creacion de una app que enlaza distintas funciones simples de Android.
 1. Una vez introducidos, presione en enviar.
 2. Pasará a mostrarse en pantalla el la actividad requerida.
 
-### Ejemplo de uso de la MinCalc 🚀
+### Ejemplo de uso de LinkUp 🚀
 ![Ejemplo](https://github.com/cdiazruiz525/LinkUp_ChristianDiazRuiz/blob/main/LinkUp_Images/ejemplo.gif)
 
 
