@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LinkUp</string>
+    <string name="menu_name">Acerca de</string>
+    <string name="btnWeb">Abrir página web</string>
+    <string name="btnTel">Llamada de teléfono</string>
+    <string name="btnMaps">Google Maps</string>
+    <string name="btnFoto">Tomar foto</string>
+    <string name="btnCorreo">Mandar correo</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="tvWeb">Introduzca una URL:</string>
+    <string name="tvTel">Introduzca un teléfono:</string>
+    <string name="tvMaps">Introduzca unas coordenadas:</string>
+    <string name="tvCorreo">Introduzca un correo:</string>
+    <string name="hintWeb">URL</string>
+    <string name="hintTel">Teléfono</string>
+    <string name="hintLatitud">Latitud</string>
+    <string name="hintLongitud">Longitud</string>
+    <string name="hintDestinatario">Destinatario</string>
+    <string name="hintAsunto">Asunto</string>
+    <string name="hintTexto">Cuerpo</string>
+</resources>

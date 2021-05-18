@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnWeb"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#3949AB"
+        android:onClick="llamarActividad"
+        android:text="@string/btnWeb"
+        app:layout_constraintBottom_toTopOf="@+id/btnTel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTel"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#8E24AA"
+        android:onClick="llamarActividad"
+        android:text="@string/btnTel"
+        app:layout_constraintBottom_toTopOf="@+id/btnMaps"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnWeb" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#7CB342"
+        android:onClick="llamarActividad"
+        android:text="@string/btnMaps"
+        app:layout_constraintBottom_toTopOf="@+id/btnFoto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTel" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:backgroundTint="#00ACC1"
+        android:onClick="llamarActividad"
+        android:text="@string/btnFoto"
+        app:layout_constraintBottom_toTopOf="@+id/btnCorreo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnMaps" />
+
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="300dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#F4511E"
+        android:onClick="llamarActividad"
+        android:text="@string/btnCorreo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFoto" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
